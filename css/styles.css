@@ -469,7 +469,42 @@ table tbody tr:nth-child(odd) {
    background-image: url(/assets/img/RTI_img.jpeg);
    color: #EAEAEA;
 }
+/* gallery */
 
+.overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .4s ease;
+   background-color: #04454f
+ }
+ 
+ .gallery_image:hover .overlay {
+   opacity: 0.8;
+ }
+ 
+ .text {
+   color: white;
+   font-family: "Poppins Reg";
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ .gallery_title{
+   width: auto;
+   padding: 8px 16px;
+   background: #04454f;
+ }
 footer{
    width: 100%;
    height: fit-content;
