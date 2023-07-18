@@ -22,6 +22,9 @@ body{
    overflow-x: hidden;
    scroll-behavior: smooth;
 }
+a {
+   text-decoration: none;
+}
 p{
    font-family: "Poppins Reg";
    font-size: 14px;
@@ -288,7 +291,7 @@ ul{
    left: 2.7vw;
 }
 
-.data{
+.data, .dyn{
    width: 95vw;
 
 }
@@ -324,6 +327,36 @@ ul{
    background-size: cover;
    background-position: center;
 }
+.dyn-card{
+   position: relative;
+   height: fit-content;
+   width: 8vw;
+
+   background: #F9F9F9;
+   /* margin: 0px 2px; */
+   /* border-radius: 0.63rem; */
+   overflow: hidden;
+
+}
+.color{
+   width: 100%;
+   background: #07505A;
+   height: 40px;
+
+}
+.dyn-card-title{
+
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin: auto;
+   color: white;
+
+   padding: 32px auto;
+   background: #07505A;
+
+}
+
 
 
 
@@ -346,9 +379,9 @@ ul{
 .links_section_link{
    border-radius: 5px;
    height: 130px;
-   background: linear-gradient(135deg, #088395 43.72%, rgba(56, 179, 227, 0) 100%);
+   background: linear-gradient(155deg, #088395 43.72%, #03525e 100%);
    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.25);
-   color: #EAEAEA;
+   color: #EAEAEA !important;
    font-family: "Poppins Med" ;
    font-size: 22px;
    padding: 20px 20px;
@@ -400,6 +433,13 @@ table tbody tr:nth-child(odd) {
    background-color: #55555576;
    color: white;
    opacity: 10;
+}
+/* About */
+.About_img{
+   width: 100vw;
+   height: fit-content;
+   background-image: url(/assets/img/Frame\ 238.png);
+   color: #EAEAEA;
 }
 
 /* acts & rules */

@@ -10,7 +10,10 @@
       padding: 10px;
    
  */
+ .dyn-card{
 
+   height: 200px;
+ }
 
 }
 
@@ -23,6 +26,8 @@
       font-size: 12px;
 
     }
+
+    
 
 
 }
