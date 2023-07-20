@@ -40,33 +40,6 @@ h3{
        opacity: 1;
    }
 }
-@keyframes animate_2{
-   from{
-       opacity: 1;
-   }
-   to{
-       opacity: 0;
-   }
-}
-@keyframes slider{
-   0% {
-       background-image: url(https://dahd.nic.in/sites/default/filess/yoga_day_2023.jpg);
-   }
-   25%{
-       background-image: url(https://dahd.nic.in/sites/default/filess/APPI2.jpg);
-   }
-   50%{
-       background-image: url(https://dahd.nic.in/sites/default/filess/KCC.png);
-   }
-   75%{
-       background-image: url(https://dahd.nic.in/sites/default/filess/NLM.png);
-   }
-   100%{
-       background-image: url(https://dahd.nic.in/sites/default/filess/yoga_day_2023.jpg);
-   }
-}
-
-
 
 .gigw {
    position: fixed;
@@ -103,8 +76,6 @@ h3{
    background-color: #183642;
 }
 .navigation_items, .nav-item{
-   /* width: 4.65vw;
-   height: 3.15vh; */
    font-family: "Poppins Med";
    color: white !important;
    transition: 0.25s;
@@ -128,13 +99,7 @@ img#icon {
 #contact{
    width: 6.45vw;
 }
-/* 
-.tab-content{
-   height: fit-content;
-   width: 100%;
-   background: yellow;
-   margin-bottom: 20px;
-} */
+
 .rightHeader{
 
    display: flex;
@@ -280,9 +245,10 @@ ul{
  
 /* home page*/
 .home_carousel{
-   width: 100vw;
+   width: 100%;
    height: 400px;
    background-image: url(/assets/img/home_cow.png);
+   background-size: cover;
    color: #EAEAEA;
 }
 .home_header{
@@ -341,35 +307,14 @@ ul{
    background-size: cover;
    background-position: center;
 }
-.dyn-card{
-   position: relative;
-   height: fit-content;
-   width: 8vw;
 
-   background: #F9F9F9;
-   /* margin: 0px 2px; */
-   /* border-radius: 0.63rem; */
-   overflow: hidden;
-
-}
 .color{
    width: 100%;
    background: #07505A;
    height: 40px;
 
 }
-.dyn-card-title{
 
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   margin: auto;
-   color: white;
-
-   padding: 32px auto;
-   background: #07505A;
-
-}
 
 
 
@@ -405,6 +350,7 @@ ul{
    width: 100;
    height: fit-content;
    background-image: url(/assets/img/donarins_bg.png);
+   background-size: cover;
 
    color: #EAEAEA;
 }
@@ -453,6 +399,7 @@ table tbody tr:nth-child(odd) {
    width: 100vw;
    height: fit-content;
    background-image: url(/assets/img/Frame\ 238.png);
+   background-size: cover;
    background-repeat: no-repeat;
    color: #EAEAEA;
 }
@@ -465,6 +412,7 @@ table tbody tr:nth-child(odd) {
    width: 100vw;
    height: 400px;
    background-image: url(/assets/img/Frame\ 120.png);
+   background-size: cover;
    color: #EAEAEA;
    background-repeat: no-repeat;
 
@@ -474,6 +422,7 @@ table tbody tr:nth-child(odd) {
    width: 100vw;
    height: 400px;
    background-image: url(/assets/img/Frame\ 121.png);
+   background-size: cover;
    background-repeat: no-repeat;
    color: #EAEAEA;
    overflow: auto;
@@ -504,6 +453,7 @@ table tbody tr:nth-child(odd) {
    width: 100vw;
    height: 300px;
    background-image: url(/assets/img/RTI_img.jpeg);
+      background-size: cover;
    color: #EAEAEA;
 }
 /* gallery */
