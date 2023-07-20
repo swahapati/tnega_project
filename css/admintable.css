@@ -1,0 +1,14 @@
+.table-div{
+   border: #E0E2E7 1px solid;
+   border-radius: 12px;
+}
+thead{
+background-color: #F3F7FF !important;
+}
+th{
+   font-size: 14px !important;
+   color: #6F727A !important;
+}
+.name{
+   width: 50vw;
+}

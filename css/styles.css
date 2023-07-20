@@ -76,6 +76,7 @@ h3{
    background-color: #183642;
 }
 .navigation_items, .nav-item{
+
    font-family: "Poppins Med";
    color: white !important;
    transition: 0.25s;
@@ -99,7 +100,13 @@ img#icon {
 #contact{
    width: 6.45vw;
 }
-
+/* 
+.tab-content{
+   height: fit-content;
+   width: 100%;
+   background: yellow;
+   margin-bottom: 20px;
+} */
 .rightHeader{
 
    display: flex;

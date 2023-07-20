@@ -1,0 +1,163 @@
+
+@font-face {
+   font-family: "Poppins Med";
+   src: url("/assets/fonts/Poppins/Poppins-Medium.ttf");
+   font-style: normal;
+   font-display: swap;
+ }
+ @font-face {
+   font-family: "Poppins Bold";
+   src: url("/assets/fonts/Poppins/Poppins-Bold.ttf");
+   font-style: normal;
+   font-display: swap;
+ }
+
+*{
+   scroll-behavior: smooth;
+   font-family: "Poppins Med";
+}
+body{
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   
+
+}
+p{
+   font-family: "Poppins Med";
+   font-size: 14px;
+}
+h3{
+   font-family: "Poppins Med";
+}
+.top{
+   background: #EAEAEA;
+   padding: 0px 40px;
+}
+.CMinfo{
+   font-family: "Poppins Med";
+   font-size: 20px;
+   color: #0C1821;
+}
+.CMdes{
+   color: #183642;
+}
+.header{
+   background: #183642;
+}
+
+
+
+:root{--header-height: 3rem;
+   --nav-width: 132px;
+   --first-color: #F7F7F9;
+   --first-color-light: #183642;
+   --teal: #183642;
+   --normal-font-size: 1rem;
+   --z-fixed: 100
+}
+*,::before,::after{
+   box-sizing: border-box
+}
+body{
+   position: relative;
+   margin: var(--header-height) 0 0 0;
+   font-family: var(--body-font);
+   font-size: var(--normal-font-size);
+
+}
+
+.navbg{
+   width: var(--nav-width);
+   height: 100v
+
+}
+.l-navbar{
+   
+   width: var(--nav-width);
+   height: calc(100vh - 160px);
+   background-color: var(--first-color);
+   padding: .5rem 1rem 0 0;
+   /* transition: .5s;
+   z-index: var(--z-fixed) */
+}
+a{
+   text-decoration: none !important;
+}
+.nav{
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* overflow: hidden; */
+}
+.nav_link{
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+   
+   align-items: center;
+   width: var(--nav-width);;
+   padding: 8px 16px;
+   gap: 8px;
+   position: relative;
+   color: var(--first-color-light);
+}
+.nav_link{
+   position: relative;
+   color: var(--first-color-light);
+
+}
+.nav_link:hover{
+   color: var(--teal)
+}
+.nav_name{
+   font-family: "Poppins Bold";
+   font-size: 12px;
+   letter-spacing: 1.2px;
+
+}
+.nav_icon{
+   font-size: 1.25rem
+}
+.show{
+   left: 0
+}
+
+.active{
+   background: white;
+}
+.active::before{content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 4px;
+   height: 64px;
+   background-color: var(--teal)
+}
+.bi{
+   height: 20px;
+   width: 20px;
+}
+.height-100{height:100vh}
+.btn{
+   font-family: "Poppins Med"!important;
+   font-size: 14px !important;
+   width: auto;
+   padding: 2px;
+}
+/* login */
+
+.loginheader{
+   width: 100%;
+   height: fit-content;
+   background-color: #07505A;
+
+   font-family: "Poppins Reg";
+}
+.loginsect{
+   width: 600px;
+   height: 450px;
+   background: plum;
+}
