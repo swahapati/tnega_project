@@ -291,6 +291,20 @@ ul{
    left: 2.7vw;
 }
 
+
+
+#complete{
+   font-family: "Poppins Med";
+   background-color: #07505A;
+   color: white;
+}
+#change{
+ /* background-color: teal; */
+ color: #07505A;
+}
+.card-body{
+   font-family: "Poppins Reg"!important;
+}
 .data, .dyn{
    width: 95vw;
 
