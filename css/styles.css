@@ -340,17 +340,18 @@ ul{
    width: inherit;
    height: fit-content;
    margin: 20px 0px;
-   padding: 45px;
+   padding: 45px 40px;
 }
 .links_section_link{
    border-radius: 5px;
    height: 130px;
+   width: 30vw;
    background: linear-gradient(155deg, #088395 43.72%, #03525e 100%);
    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.25);
    color: #EAEAEA !important;
    font-family: "Poppins Med" ;
    font-size: 22px;
-   padding: 20px 20px;
+   /* padding: 20px 20px; */
 
 }
 .donations{
