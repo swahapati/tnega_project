@@ -439,9 +439,32 @@ table tbody tr:nth-child(odd) {
    width: 100vw;
    height: fit-content;
    background-image: url(/assets/img/Frame\ 238.png);
+   background-repeat: no-repeat;
    color: #EAEAEA;
 }
 
+
+
+
+/* roles and functions */
+.Rnf_img1{
+   width: 100vw;
+   height: 400px;
+   background-image: url(/assets/img/Frame\ 120.png);
+   color: #EAEAEA;
+   background-repeat: no-repeat;
+
+}
+
+.Rnf_img2{
+   width: 100vw;
+   height: 400px;
+   background-image: url(/assets/img/Frame\ 121.png);
+   background-repeat: no-repeat;
+   color: #EAEAEA;
+   overflow: auto;
+
+}
 /* acts & rules */
 .block {
    width: 100%;
