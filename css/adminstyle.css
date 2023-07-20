@@ -159,5 +159,16 @@ a{
 .loginsect{
    width: 600px;
    height: 450px;
-   background: plum;
+   /* background: plum; */
+}
+.loginInput{
+   width: 30vw
+}
+.line{
+
+   background: #ADB5BD;
+   width: 1px;
+}
+.color{
+   background-color: #07505A !important;
 }
