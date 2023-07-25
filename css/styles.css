@@ -428,7 +428,7 @@ table tbody tr:nth-child(odd) {
 
 .Rnf_img2{
    width: 100vw;
-   height: 400px;
+   height: fit-content;
    background-image: url(/assets/img/Frame\ 121.png);
    background-size: cover;
    background-repeat: no-repeat;
@@ -568,4 +568,7 @@ footer{
    top: 22.5%;
    left: 35%;
    box-shadow: 3.4px 3.4px 3.4px #bebebe25;
+ }
+ .modal-dialog{
+   max-width: fit-content !important;
  }
