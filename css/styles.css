@@ -200,22 +200,14 @@ a{
    justify-content: center;
 }
 .map{
-   position: absolute;
-   top: 77.44vh;
-   left: 78.95vw;
-   width: 15.61vw;
-   height: 6.89vh;
-   transition: 0.25s;
-   color: white;
-   border-radius: 7px;
-   font-size: 105%;
-   font-weight: 500;
+   width: inherit;
+   height: 200px;
+   border-radius: 10px;
+   margin: 16px 0px;
+
 }
 .map:hover{
-   background-color: white;
-   border: 3px solid #313D5A;
-   color: #313D5A;
-   scale: 0.90;
+
 }
 
 .reveal{
@@ -357,6 +349,9 @@ ul{
    font-size: 22px;
    /* padding: 20px 20px; */
 
+}
+.links_section_link:hover{
+   background: linear-gradient(-30deg, #088395 43.72%, #03525e 100%);
 }
 .donations{
    width: 100;
@@ -514,8 +509,8 @@ footer{
 }
 
 .last{
-   width: 100%;
-   height: 167px;
+
+   height: fit-content;
    background-color: #25414D;
 }
 .foot{
@@ -564,15 +559,7 @@ footer{
  .address p {
    line-height: 2.25em;
  }
- #map{
-   width: 315.35px;
-   height: 140.25px;
-   border-radius: 12.75px;
-   position: relative;
-   top: 22.5%;
-   left: 35%;
-   box-shadow: 3.4px 3.4px 3.4px #bebebe25;
- }
+
  .modal-dialog{
    max-width: fit-content !important;
  }
