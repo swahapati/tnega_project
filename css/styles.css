@@ -12,6 +12,10 @@
    font-style: normal;
    font-display: swap;
  }
+ a{
+   text-decoration: none !important;
+   color: inherit !important;
+ }
 
 *{
    scroll-behavior: smooth;
