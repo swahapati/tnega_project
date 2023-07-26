@@ -344,6 +344,7 @@ ul{
    color: #EAEAEA !important;
    font-family: "Poppins Med" ;
    font-size: 22px;
+   /* padding: 20px 16px; */
    /* padding: 20px 20px; */
 
 }
@@ -510,13 +511,7 @@ footer{
    height: fit-content;
    background-color: #25414D;
 }
-.foot{
-   width: 44.30%;
-   height: 100%;
-   color: white;
-   font-family: system-ui;
-   
-}
+
 .address{
    width: 1011px;
    height: 245px;
