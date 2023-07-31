@@ -551,7 +551,14 @@ footer{
  .address p {
    line-height: 2.25em;
  }
-
+ /* .gallerymodal{
+   width: 80vw !important;
+ } */
+/* 
  .modal-dialog{
    max-width: fit-content !important;
- }
+ } */
+ /* .modal{
+   width: 80vw !important;
+   margin: 0pxauto;
+ } */
